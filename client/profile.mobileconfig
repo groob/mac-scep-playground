@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>PayloadContent</key>
+        <array>
+            <dict>
+                <key>Name</key>
+                <string>*.corp.acme.co</string>
+                <key>PayloadCertificateUUID</key>
+                <string>EB4F825A-20A8-4B7F-BCC1-4FE1571ED34B</string>
+                <key>PayloadDescription</key>
+                <string>Configures an identity preference</string>
+                <key>PayloadDisplayName</key>
+                <string>Identity Preference for BeyondCorp</string>
+                <key>PayloadIdentifier</key>
+                <string>com.apple.security.identitypreference.beyondcorp.374FA568-953F-42DF-B95B-E8E46A94539E</string>
+                <key>PayloadType</key>
+                <string>com.apple.security.identitypreference</string>
+                <key>PayloadUUID</key>
+                <string>69E8F10D-6D46-4043-8B21-68886BBB464B</string>
+                <key>PayloadVersion</key>
+                <real>1</real>
+            </dict>
+            <dict>
+                <key>PayloadContent</key>
+                <dict>
+                    <key>Key Type</key>
+                    <string>RSA</string>
+                    <key>Keysize</key>
+                    <integer>1024</integer>
+                    <key>Retries</key>
+                    <integer>3</integer>
+                    <key>RetryDelay</key>
+                    <integer>10</integer>
+                    <key>URL</key>
+                    <string>http://localhost:9001/scep</string>
+                    <key>Subject</key>
+                    <array>
+                        <array>
+                            <array>
+                                <string>O</string>
+                                <string>Acme</string>
+                            </array>
+                        </array>
+                        <array>
+                            <array>
+                                <string>CN</string>
+                                <string>BeyondCorp Identity (%ComputerName%)</string>
+                            </array>
+                        </array>
+                    </array>
+                </dict>
+                <key>PayloadDescription</key>
+                <string>Configures SCEP settings</string>
+                <key>PayloadDisplayName</key>
+                <string>SCEP</string>
+                <key>PayloadIdentifier</key>
+                <string>com.apple.security.scep.beyondcorp.374FA568-953F-42DF-B95B-E8E46A94539E</string>
+                <key>PayloadType</key>
+                <string>com.apple.security.scep</string>
+                <key>PayloadUUID</key>
+                <string>EB4F825A-20A8-4B7F-BCC1-4FE1571ED34B</string>
+                <key>PayloadVersion</key>
+                <real>1</real>
+            </dict>
+            <dict>
+                <key>PayloadCertificateFileName</key>
+                <string>ca.crt</string>
+                <key>PayloadContent</key>
+                <data>LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUZJVENDQXdtZ0F3SUJBZ0lCQVRBTkJna3Foa2lHOXcwQkFRc0ZBREF5TVFzd0NRWURWUVFHRXdKVlV6RVIKTUE4R0ExVUVDaE1JWjNKdmIySXRhVzh4RURBT0JnTlZCQXNUQjFORFJWQWdRMEV3SGhjTk1UY3dOekU1TURFegpOelV4V2hjTk1qY3dOekU1TURFek56VXhXakF5TVFzd0NRWURWUVFHRXdKVlV6RVJNQThHQTFVRUNoTUlaM0p2CmIySXRhVzh4RURBT0JnTlZCQXNUQjFORFJWQWdRMEV3Z2dJaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQ0R3QXcKZ2dJS0FvSUNBUURQNEkxZ2NxVmdaeUJIZEpocjBXbHVLMGJEM3c5OWNsN01Lc0V6T0xKajV5VHY4V09IYXVBMQozK3pOWmVPZWVMdTRqSmdXNU9uU2VuSXM4WVJUNEZ2b3NQRTd2UnI2Z045Tnpablg4WWEweFVKV2pVQXNTWXY3ClhrUkM3aGR0N3dSZnVNaC93cklkSDZ4amlQajc4SWdVMThGUWJmemNsN0I0UFI5dXJqTUczeTBIRGk1ZWFHaWkKelNDOFlaQjcrRWEvWVNaenBtbWtNN0pNL1pmbnJIS0E2QmVRSHVhT0F0TzFONWhUcUpIK3IrR2t0Zm9yNW9NcQpHcENjVlQ1dmZ3NGVjSktSeTNJVnpzOE1GeUppaWdlbVBuUUp2K1hFTlI3TitUM3dqNS9keG53OVJYR1Uzb1pjClF6MndYdGpHekFoT0tZdXQ3TlpwaG5IbHRKUWpvdFpON0FDbld2UXhZT25kTEJEVFNtVm1WWm45MnBRZXhLa2UKM1BBUEZVR2NmTlZ6NGhUbW9RaS90TnFSYUZ4dllWYi91TjRaTCtBUlFudnVYSk5FaUlSekRJMEhHb2tiQjFoNQpEY1BPTS92SVkrQVU0U25Zejg2WGkyVFo5SEY0VlZOYitJaHg1TUI1aTNmcDBubDVOVldBQ05ySHRkTFRMUWg0ClJvY2tuOHVQb0Zzd3Z2VUNWT1YrRXBSdE9kc3EvSDdyTWRKKy8wSGkwWGVuSTVtM1A5YzllNTZoTEFLckpJRzkKRGEyWG1FekQ4b3NwOWtYaWpnQTFkcjdWdnJwbDJRODhwVHh6b1lsbEFrL3paSGFOaENHdkhkU3UyQW5BMU1qbwpUblNqM3p3ODV5anR0ZGlSQzlRNVdDOGRPNmgwMzg1a1l1dFdaUGJlU2JQTTM1ZUtaT1EzeFFJREFRQUJvMEl3ClFEQU9CZ05WSFE4QkFmOEVCQU1DQWdRd0R3WURWUjBUQVFIL0JBVXdBd0VCL3pBZEJnTlZIUTRFRmdRVUcxeWUKWWJMVWQ0c29ReHJ0ZWJwUFZSQmNSMmd3RFFZSktvWklodmNOQVFFTEJRQURnZ0lCQUkvTzN2WFN3bVd1em9mbgpCazVsRWpzNnlpNTdnLzdObnJRLzUwUU5NY2YvWUErOUZDbU96ZTRHNXpwNkRJWDU4UFExV24wMlQzZHEyOVI0CkdHSno5cWNNZWRXZ0ZFRU5aTkFHTUxNQllyTlZvMTNCY3FqMUd6dW9QY2dmOFpEQUlLSWxBMlU4ZlR3Vk1lNk8KOW9LRnMxdmgxOFNPTURicUp3S2F4WmJhbzhMUzN0K0NndW9IS1ZNakJlaHpvYlEzSExWSHpGaFkvOTViTmJZNApYNXVudHJPMXMwKzFDL0x4UlAxdnluMmpPdm9mZ1BEc0NNYnFvbjljTjlrZGthT2hucmVvdzk4MUFwSUJOSDRzCkpNWnlBVlpnbU5Kd1ZOUW1XMnQyR1lleHN5V2k5b3A3bkV2UVpXaEFYcVo5Mlg4L3V1bVNVbU5hNlBlRk5EaWQKODdBM1ptdXoza3VlMjRvT29MS2dLRitNRXNXZ3UxQ3FNK3Z2dkVueDRodXRoU3VzN3NQc2x2Vnp5Y2tMMHlhYQpjaUhjdzlxREUwa2YzUXJuNUpLM3p5MlY2UkVrTG1temdENVkxdlZjQXVBeTNJK1lGano1Y0l1bWp0UzkyUU5YCnlkUnZkeUg5T1ZvV1Y0YTljU0MzQnNXUlBmVUt3Z0c5bmxHMG9SQ1p1MTFtSi9EcTFMNy80MGpXazFBeWFaWEgKMEtHcFlnR1VpWDFLY2l3Wm9JaTlwMnMyaGd4TW1jMU1meUVkTS9kWEVSZzd6VVNoRGhxeThVY3RlV3NrVDk2OQowQ1BnaW1ESGZsVlRSRWo4TkR1RTQ5SW1hUm8zekpuemwxOHdxL3JYcDBFSHhUQUdIZTZQa1ROZnpUU25iRDViClQxNFJOSC8yVXZqMDd2MXFlYzMrVXdnZjR4MlUKLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQo=</data>
+                <key>PayloadDescription</key>
+                <string>Configures certificate settings.</string>
+                <key>PayloadDisplayName</key>
+                <string>ca.crt</string>
+                <key>PayloadIdentifier</key>
+                <string>com.apple.security.root.144BCC70-6C83-4E98-A4BB-8F306E04AEB0</string>
+                <key>PayloadType</key>
+                <string>com.apple.security.root</string>
+                <key>PayloadUUID</key>
+                <string>3801A3C2-542B-44CC-83C9-FB8099A149D0</string>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+            </dict>
+        </array>
+        <key>PayloadDisplayName</key>
+        <string>BeyondCorp Identity</string>
+        <key>PayloadIdentifier</key>
+        <string>groob.mac.87F4D228-F8BD-4B2B-BDAD-1858D63FE29F</string>
+        <key>PayloadRemovalDisallowed</key>
+        <false/>
+        <key>PayloadType</key>
+        <string>Configuration</string>
+        <key>PayloadUUID</key>
+        <string>456271F8-6AE8-48A0-9553-5E45677230B5</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+    </dict>
+</plist>
