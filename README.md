@@ -1,6 +1,6 @@
 # Overview
 
-Testing SCEP and related profile payloads is hard. You need a SCEP Server. You need a profile with the right keys. You need a CA cert. Your profile likely needs an Identiy Preference. Once you've installe the profile you probably want to test it against a running server. So you gotta generate some server certs, set up nginx and configure it to require TLS Auth. By the time you're done you forgot what you even wanted to test. This repo is for you(and me in a few months when I look into this functionality again).
+Testing SCEP and related profile payloads is hard. You need a SCEP Server. You need a profile with the right keys. You need a CA cert. Your profile likely needs an Identiy Preference. Once you've installed the profile you probably want to test it against a running server. So you gotta generate some server certs, set up nginx and configure it to require TLS Auth. By the time you're done you forgot what you even wanted to test. This repo is for you(and me in a few months when I look into this functionality again).
 
 This repo comes with the following resources:
 
